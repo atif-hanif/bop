@@ -199,6 +199,48 @@ a {
     display: none;
 }
 
+.profile-nav {
+    display: inline-block;
+    position: relative;
+}
+
+.profile-media {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    justify-content: center;
+    border-radius: 50%;
+    overflow: hidden;
+    align-items: flex-start;
+    float: left;
+}
+
+.profile-media img {
+    width: 40px;
+}
+
+.media-name {
+    margin-left: 10px;
+    display: inline-block;
+    float: right;
+    margin-top: 3px;
+}
+
+.profile-name {
+    color: var(--white-color);
+    font-weight: 600;
+    line-height: 1;
+}
+
+.profile-role {
+    font-size: 12px;
+    color: var(--white-color);
+}
+
+.mobile-profile {
+    margin-left: 25px;
+}
+
 /* Login Page */
 
 .login-body {

@@ -11,7 +11,7 @@
     }
 }
 
-@media screen and (min-width: 1023px) {
+@media screen and (min-width: 992px) {
     body {
         margin: calc(var(--header-height) + 1rem) 0 0 0;
         /*padding-left: calc(var(--nav-width) + 10rem);*/
@@ -51,7 +51,7 @@
     }
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 991px) {
 
     .header {
         padding: 0px;
