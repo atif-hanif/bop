@@ -6,8 +6,8 @@
 
 @media (min-width: 769px) {
     .gradient-custom-2 {
-        border-top-left-radius: .3rem;
-        border-bottom-left-radius: .3rem;
+        border-top-left-radius: 0rem;
+        border-bottom-left-radius: 0rem;
     }
 }
 
@@ -49,6 +49,7 @@
         /*padding-left: calc(var(--nav-width) + 188px);*/
         padding-left: calc(var(--nav-width) + 1rem);
     }
+    
 }
 
 @media screen and (max-width: 991px) {
@@ -58,8 +59,13 @@
         display: block;
         height: calc(var(--header-height) + 0.5rem) ;
     }
+
     .body-pd {
         padding: 0 1rem;
+    }
+
+    .mobile-profile {
+        margin: 10px 0px 0px 20px
     }
 }
 
