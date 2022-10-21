@@ -10,13 +10,20 @@ document.addEventListener("DOMContentLoaded", function(event) {
 		if(toggle && nav && bodypd && headerpd){
 			toggle.addEventListener('click', ()=>{
 			// show navbar
-			nav.classList.toggle('show')
+			nav.classList.toggle('show');
+			//	if (nav.classList.contains('show')) {
+			//		$('.main-logo').attr('src', '/Public/image/logo2.png');
+			//	}
+			//	else {
+			//		$('.main-logo').attr('src', '/Public/image/logo.png');
+			//	}
+			//$('.main-logo')[0].classList.toggle('small-logo')
 			// change icon
 			toggle.classList.toggle('bx-x')
 			// add padding to body
 			bodypd.classList.toggle('body-pd')
 			// add padding to header
-			headerpd.classList.toggle('body-pd')
+			//headerpd.classList.toggle('body-pd')
 			})
 		}
 	}
@@ -24,18 +31,17 @@ document.addEventListener("DOMContentLoaded", function(event) {
 	showNavbar('header-toggle','nav-bar','body-pd','header')
 
 	/*===== LINK ACTIVE =====*/
-	const linkColor = document.querySelectorAll('.nav_link')
+	/*const linkColor = document.querySelectorAll('.nav_link')*/
 
-	function colorLink(){
-		if(linkColor){
-		linkColor.forEach(l=> l.classList.remove('active'))
-		this.classList.add('active')
-		}
-	}
-	linkColor.forEach(l=> l.addEventListener('click', colorLink))
+	//function colorLink(){
+	//	if(linkColor){
+	//	linkColor.forEach(l=> l.classList.remove('active'))
+	//	this.classList.add('active')
+	//	}
+	//}
+	//linkColor.forEach(l=> l.addEventListener('click', colorLink))
 
-	// Your code to run since DOM is loaded and ready
-	});
+});
 
 
 $(document).ready( function () {
